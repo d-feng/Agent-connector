@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Data lake (downloaded by biomni on first run, ~11 GB)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated reports
+*.docx
+
+# OS
+.DS_Store
+Thumbs.db
