@@ -1,4 +1,4 @@
-# Bio-agent-connector
+# Agent-connector
 
 A lightweight Python framework for orchestrating [Biomni](https://github.com/snap-stanford/Biomni) A1 agents in chains and parallel workflows, with execution tracking and Word report generation.
 
@@ -11,7 +11,7 @@ A lightweight Python framework for orchestrating [Biomni](https://github.com/sna
 ## Project layout
 
 ```
-Bio-agent-connector/
+Agent-connector/
 ├── biomni_connector.py        # Core wrapper and connector classes
 ├── agent_logger.py            # Word report generation utilities
 ├── examples/
@@ -34,8 +34,8 @@ Bio-agent-connector/
 ### Step 1 — Create a clean environment
 
 ```bash
-conda create -n bio-agent python=3.11 -y
-conda activate bio-agent
+conda create -n agent python=3.11 -y
+conda activate agent
 ```
 
 ### Step 2 — Install dependencies
